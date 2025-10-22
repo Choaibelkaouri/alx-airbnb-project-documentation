@@ -37,7 +37,7 @@ Each story follows the format:
 - As a guest, I want to cancel a booking, so that I can change my plans.  
 - As an admin, I want to view all bookings, so that I can resolve disputes or errors.  
 
----
+---x
 
 ## 5. Payments
 - As a guest, I want to pay securely for a booking, so that I can confirm my reservation.  
