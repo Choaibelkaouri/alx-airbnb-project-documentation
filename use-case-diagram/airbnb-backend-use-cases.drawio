@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2025-10-22T08:32:04.475008" version="20.3.0">
+  <diagram id="usecase" name="Use Case">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <!-- Actors -->
+        <mxCell id="guest" value="Guest" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="150" width="40" height="80" as="geometry"/></mxCell>
+        <mxCell id="host" value="Host" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="320" width="40" height="80" as="geometry"/></mxCell>
+        <mxCell id="admin" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="490" width="40" height="80" as="geometry"/></mxCell>
+        <mxCell id="payment" value="Payment Provider" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="1080" y="320" width="40" height="80" as="geometry"/></mxCell>
+        <!-- System boundary -->
+        <mxCell id="sys" value="Airbnb Clone Backend" style="swimlane;rounded=1;horizontal=0;startSize=30;container=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="850" height="520" as="geometry"/>
+        </mxCell>
+        <!-- Use cases -->
+        <mxCell id="uc1" value="Register / Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sys"><mxGeometry x="80" y="40" width="150" height="50" as="geometry"/></mxCell>
+        <mxCell id="uc2" value="Manage Profile" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sys"><mxGeometry x="300" y="40" width="150" height="50" as="geometry"/></mxCell>
+        <mxCell id="uc3" value="Search Properties" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sys"><mxGeometry x="80" y="140" width="160" height="50" as="geometry"/></mxCell>
+        <mxCell id="uc4" value="View Property Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sys"><mxGeometry x="300" y="140" width="180" height="50" as="geometry"/></mxCell>
+        <mxCell id="uc5" value="Manage Property" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sys"><mxGeometry x="80" y="240" width="160" height="50" as="geometry"/></mxCell>
+        <mxCell id="uc6" value="Book Property" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sys"><mxGeometry x="300" y="240" width="160" height="50" as="geometry"/></mxCell>
+        <mxCell id="uc7" value="Make Payment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sys"><mxGeometry x="520" y="240" width="160" height="50" as="geometry"/></mxCell>
+        <mxCell id="uc8" value="Write Review" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sys"><mxGeometry x="300" y="340" width="160" height="50" as="geometry"/></mxCell>
+        <mxCell id="uc9" value="Receive Notifications" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="sys"><mxGeometry x="520" y="340" width="180" height="50" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
