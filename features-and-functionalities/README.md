@@ -1,5 +1,4 @@
 # Airbnb Clone Backend — Features and Functionalities
-
 ## Actors
 - Guest  
 - Host  
